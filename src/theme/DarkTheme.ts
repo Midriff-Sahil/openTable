@@ -7,7 +7,7 @@ const DARK_BLUE_THEME: ThemeTypes = {
         'border-color': '#151920',
     },
     colors: {
-        primary: '#e1b244',
+        primary: '#B02E59',
         secondary: '#49BEFF',
         info: '#539BFF',
         success: '#13DEB9',
@@ -21,14 +21,14 @@ const DARK_BLUE_THEME: ThemeTypes = {
         lightwarning: '#4D3A2A',
         textPrimary: '#EAEFF4',
         textSecondary: '#7C8FAC',
-        borderColor: '#151920',
+        borderColor: '#436B78',
         inputBorder: '#465670',
-        containerBg: '#0e1317',
-        background: '#0e1317',
-        hoverColor: '#151920',
-        surface: '#0e1317',
-        'on-surface-variant': '#0e1317',
-        grey100: '#151920',
+        containerBg: '#314E57',
+        background: '#314E57',
+        hoverColor: '#436B78',
+        surface: '#314E57',
+        'on-surface-variant': '#314E57',
+        grey100: '#436B78',
         grey200: '#465670'
     }
 };
