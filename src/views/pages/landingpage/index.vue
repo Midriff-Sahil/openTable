@@ -2,6 +2,8 @@
 import { ref, onMounted } from 'vue';
 import Header from '@/components/landingpage/layout/Header.vue';
 import MainBanner from '@/components/landingpage/section/mainBanner.vue';
+import Aboutus from '@/components/landingpage/section/Aboutus.vue';
+import Markuesection from '@/components/landingpage/section/Markuesection.vue';
 import OurProducts from '@/components/landingpage/section/ourProducts.vue';
 import FrameWorks from '@/components/landingpage/section/frameWorks.vue';
 import UserReview from '@/components/landingpage/section/userReview.vue';
@@ -27,6 +29,8 @@ onMounted(() => {
         <!----------->
         <!--Content-->
         <MainBanner />
+         <Aboutus/>
+        <Markuesection/>
         <OurProducts />
         <FrameWorks />
         <UserReview />
