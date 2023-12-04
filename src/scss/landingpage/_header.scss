@@ -105,7 +105,7 @@ ul.info.booking_point li {
         padding-left: 30px;
         padding-right: 30px;
         position: relative;
-        border: 1px solid #e1b244;
+        border: 1px solid rgb(var(--v-theme-primary));
         padding-top: 90px;
         padding-bottom: 50px;
         margin-left: 15px;
@@ -122,7 +122,7 @@ ul.info.booking_point li {
     top: 12px;
     right: -14px;
     bottom: 12px;
-    border: 1px solid #e1b244;
+    border: 1px solid rgb(var(--v-theme-primary));
 }
         }
     }
@@ -139,7 +139,7 @@ ul.info.booking_point li {
         top: 0;
         width: 100%;
         height: 100%;
-        border: 1px solid #e1b244;
+        border: 1px solid rgb(var(--v-theme-primary));
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
         -webkit-animation-name: rotateme;
@@ -150,7 +150,7 @@ ul.info.booking_point li {
 }
 
 .book-a_table {
-    background: #e1b244;
+    background-color: rgb(var(--v-theme-primary));
     max-width: 34%;
     border-radius: 10px;
     padding: 15px;
@@ -178,7 +178,7 @@ span.txt_about {
     width: 130px;
     border-radius: 10px;
     height: 130px;
-    border: 1px solid #e1b244;
+    border: 1px solid rgb(var(--v-theme-primary));
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-animation-name: rotateme;
@@ -211,7 +211,7 @@ object-fit: cover;
     height: 10px;
     margin-top: 8px;
     width: 16px;
-    border: 1px solid #e1b244;
+    border: 1px solid rgb(var(--v-theme-primary));
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }

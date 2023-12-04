@@ -4,7 +4,7 @@ import { ref } from 'vue';
 
 </script>
 <template>
-    <div class="py-6 overflow-hidden markueHome">
+    <div class="py-6 overflow-hidden bg-hoverColor markueHome">
             <v-row class="pt-0">
                 <v-col cols="12" class="align-center">
 
