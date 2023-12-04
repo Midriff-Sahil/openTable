@@ -20,19 +20,19 @@ const locationItems = ref([
                         <!-- <span class="text-h6 d-flex align-center gap-2" data-aos="fade-up" data-aos-duration="400"
                             ><RocketIcon size="18" class="text-secondary" /> Kick start your project with</span
                         > -->
-                        <h1 class="bannerTitle pt-5 font-weight-bold" data-aos="fade-up" data-aos-duration="500">
-                            Table Booking System <span class="text-primary"> For Restaurants </span>  
+                        <h1 class="bannerTitle pt-5 font-weight-bold text-background" data-aos="fade-up" data-aos-duration="500">
+                            Table Booking System <span class="text-colorFill"> For Restaurants </span>  
                         </h1>
-                        <p class="pt-8 pb-6 text-h5 font-weight-regular" data-aos="fade-up" data-aos-duration="800">
+                        <p class="pt-8 pb-6 text-h5 font-weight-regular text-lightsecondary" data-aos="fade-up" data-aos-duration="800">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nibh blandit, tristique elit vel, commodo libero.
                         </p>
                         <div class="mt-6 d-sm-flex gap-3" data-aos="fade-up" data-aos-duration="1000">
-                            <v-btn target="_blank" href="/auth/login" color="primary" size="large" class="m-btn-full btn-custom-lg" flat
+                            <v-btn target="_blank" href="/auth/login" color="accent" size="large" class="m-btn-full btn-custom-lg" flat
                                 >Login</v-btn
                             >
                             <v-btn
                                 to=""
-                                color="primary"
+                                color="accent"
                                 variant="outlined"
                                 class="mt-sm-0 mt-4 lp-btn-shadow m-btn-full btn-custom-lg"
                                 size="large"
@@ -43,14 +43,14 @@ const locationItems = ref([
                 </v-col>
                 <v-col cols="12" md="5">
                     <div class="bannerSideRes">
-                        <h2 class="text-center mb-1">Reservation</h2>
+                        <h2 class="text-center mb-1 text-background">Reservation</h2>
                         <div class="text-center">
-                            <div class="tableBnrCnt d-inline-block">Restaurants</div>
+                            <div class="tableBnrCnt d-inline-block text-background">Restaurants</div>
                         </div>
                         <form class="mt-4">
                             <v-row>
                                 <v-col cols="12">
-                                    <v-text-field color="primary" variant="outlined" type="date" hide-details>
+                                    <v-text-field class="text-background" variant="outlined" type="date" hide-details>
                                         <template v-slot:prepend-inner>
                                             <CalendarIcon stroke-width="1.5" size="22" class="text-medium-emphasis mr-3" />
                                         </template>
@@ -98,7 +98,7 @@ const locationItems = ref([
                                     </v-autocomplete>
                                 </v-col>
                                 <v-col cols="12">
-                                    <v-btn color="primary" size="large" class=" w-100">Find Restaurants</v-btn>
+                                    <v-btn color="accent" size="large" class=" w-100">Find Restaurants</v-btn>
                                 </v-col>
                             </v-row>
                         </form>
