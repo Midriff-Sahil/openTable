@@ -1,5 +1,5 @@
 {
-    "name": "modernize",
+    "name": "restaurant_table",
     "version": "1.0.0",
     "scripts": {
         "dev": "vite",

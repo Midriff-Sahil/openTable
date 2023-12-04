@@ -4,10 +4,10 @@ const DARK_BLUE_THEME: ThemeTypes = {
     name: 'DARK_BLUE_THEME',
     dark: true,
     variables: {
-        'border-color': '#333F55',
+        'border-color': '#151920',
     },
     colors: {
-        primary: '#5D87FF',
+        primary: '#e1b244',
         secondary: '#49BEFF',
         info: '#539BFF',
         success: '#13DEB9',
@@ -21,14 +21,14 @@ const DARK_BLUE_THEME: ThemeTypes = {
         lightwarning: '#4D3A2A',
         textPrimary: '#EAEFF4',
         textSecondary: '#7C8FAC',
-        borderColor: '#333F55',
+        borderColor: '#151920',
         inputBorder: '#465670',
-        containerBg: '#2a3447',
-        background: '#2a3447',
-        hoverColor: '#333f55',
-        surface: '#2a3447',
-        'on-surface-variant': '#2a3447',
-        grey100: '#333F55',
+        containerBg: '#0e1317',
+        background: '#0e1317',
+        hoverColor: '#151920',
+        surface: '#0e1317',
+        'on-surface-variant': '#0e1317',
+        grey100: '#151920',
         grey200: '#465670'
     }
 };
