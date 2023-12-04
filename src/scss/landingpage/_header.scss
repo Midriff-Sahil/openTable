@@ -159,7 +159,7 @@ ul.info.booking_point li {
     position: relative;
 }
 span.txt_about {
-    color: #000;
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
     white-space: nowrap;
@@ -202,16 +202,17 @@ object-fit: cover;
 .last_block {
     font-size: 25px;
     line-height: 34px;
-    color: #e1b244;
+    color: (var(--v-theme-background));
     margin-bottom: 20px;
+    font-weight: 600;
 }
 .list_icon {
     position: relative;
     display: block;
-    height: 10px;
+    height: 11px;
     margin-top: 8px;
-    width: 16px;
-    border: 1px solid rgb(var(--v-theme-primary));
+    width: 15px;
+    border: 2px solid rgb(var(--v-theme-primary));
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
@@ -222,6 +223,25 @@ object-fit: cover;
 h3.animated.fadeIn {
     font-size: 120px;
 }
+.imagessectionHome {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: url(../../../src/assets/images/landingpage/imgpsh_fullsize_anim.jpg);
+}
+.image_text h3 {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+.image_text p {
+    color: #fff;
+    text-align: center;
+    padding-top:10px;
+}
+
+
+
 @keyframes rotateme{
     0% {
         transform: rotate(0deg);

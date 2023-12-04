@@ -3,7 +3,6 @@ import { ref, onMounted } from 'vue';
 import Header from '@/components/landingpage/layout/Header.vue';
 import MainBanner from '@/components/landingpage/section/mainBanner.vue';
 import Aboutus from '@/components/landingpage/section/Aboutus.vue';
-import Markuesection from '@/components/landingpage/section/Markuesection.vue';
 import RestaurantList from '@/components/landingpage/section/restaurant_listing.vue';
 import Imagessection from '@/components/landingpage/section/Imagessection.vue';
 import OurProducts from '@/components/landingpage/section/ourProducts.vue';
@@ -32,7 +31,6 @@ onMounted(() => {
         <!--Content-->
         <MainBanner />
          <Aboutus/>
-        <Markuesection/>
         <RestaurantList/>
         <Imagessection/>
         <OurProducts />
