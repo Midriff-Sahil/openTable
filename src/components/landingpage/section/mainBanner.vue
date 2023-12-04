@@ -43,16 +43,16 @@ const locationItems = ref([
                 </v-col>
                 <v-col cols="12" md="5">
                     <div class="bannerSideRes">
-                        <h2 class="text-center mb-1 text-background">Reservation</h2>
+                        <h2 class="text-center mb-1 text-primary">Reservation</h2>
                         <div class="text-center">
-                            <div class="tableBnrCnt d-inline-block text-background">Restaurants</div>
+                            <div class="tableBnrCnt d-inline-block text-primary">Restaurants</div>
                         </div>
                         <form class="mt-4">
                             <v-row>
                                 <v-col cols="12">
-                                    <v-text-field class="text-background" variant="outlined" type="date" hide-details>
+                                    <v-text-field  variant="outlined" type="date" hide-details>
                                         <template v-slot:prepend-inner>
-                                            <CalendarIcon stroke-width="1.5" size="22" class="text-medium-emphasis mr-3" />
+                                            <CalendarIcon stroke-width="1.5" size="22" class=" text-medium-emphasis mr-3" />
                                         </template>
                                     </v-text-field>
                                 </v-col>
@@ -86,7 +86,7 @@ const locationItems = ref([
                                     hide-details
                                     >
                                     <template v-slot:prepend-inner>
-                                            <UserIcon stroke-width="1.5" size="22" class="text-medium-emphasis mr-3" />
+                                            <UserIcon stroke-width="1.5" size="22" class=" text-medium-emphasis mr-3" />
                                     </template>
                                     </v-select>
                                 </v-col>
