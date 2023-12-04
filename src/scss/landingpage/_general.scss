@@ -27,7 +27,7 @@ header.lp-header.headerCustomStyle {
 .topHeader {
     position: relative;
     z-index: 99999;
-    background-color: rgb(var(--v-theme-primary));
+    background-color: rgb(var(--v-theme-hoverColor));
 }
 .bannerSideRes{
     padding: 50px 80px 43px;
@@ -46,7 +46,7 @@ header.lp-header.headerCustomStyle {
     height:100%;
     top:0;
     left:0;
-    background-color: #021d2a;
+    background-color: rgb(var(--v-theme-background));
     opacity: 0.5;
     z-index:-1;
 }
