@@ -76,3 +76,7 @@
 //     font-family: 'Audrey'!important;
 //     font-weight: bold!important;
 // }
+
+.v-app-bar .v-toolbar__content .v-btn {
+    color: rgba(var(--v-theme-textSecondary), 1) !important;
+}

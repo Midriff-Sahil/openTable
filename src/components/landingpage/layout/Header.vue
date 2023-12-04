@@ -31,7 +31,7 @@ const isScrolled = ref(false);
             <div class="topHeader">
                 <v-container class="py-1">
                     <div class="innerHeaderTop text-center">
-                        <p class="text-capitalize">Connect to your digital reservation book from any device you have</p>
+                        <p class="text-capitalize text-white">Connect to your digital reservation book from any device you have</p>
                     </div>
                 </v-container>
             </div>
@@ -39,9 +39,9 @@ const isScrolled = ref(false);
             <!-- -----------------------------------------------
                     Start Header
                     ----------------------------------------------- -->
-            <v-app-bar height="80" class="lp-header headerCustomStyle"  flat>
+            <v-app-bar height="80" class="lp-header headerCustomStyle bg-primary"  flat>
                 <v-container class="maxWidth py-sm-4 py-0">
-                    <v-toolbar class="d-flex align-center">
+                    <v-toolbar class="d-flex align-center bg-primary">
                         <!-- Logo -->
                         <span class="text-h3">MyTable</span>
                         

@@ -27,11 +27,11 @@ header.lp-header.headerCustomStyle {
 .topHeader {
     position: relative;
     z-index: 99999;
-    background-color: rgb(var(--v-theme-hoverColor));
+    background-color: rgb(var(--v-theme-secondary));
 }
 .bannerSideRes{
     padding: 50px 80px 43px;
-    background-color: #021d2a;
+    background-color: rgb(var(--v-theme-primary));
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ header.lp-header.headerCustomStyle {
     height:100%;
     top:0;
     left:0;
-    background-color: rgb(var(--v-theme-background));
+    background-color: rgb(var(--v-theme-primary));
     opacity: 0.5;
     z-index:-1;
 }
@@ -61,7 +61,7 @@ header.lp-header.headerCustomStyle {
     top: 8px;
     width: 8px;
     height: 8px;
-    background-color: rgb(var(--v-theme-primary));
+    background-color: rgb(var(--v-theme-accent));
     transform: rotate(45deg);
 }
 .tableBnrCnt:before{
