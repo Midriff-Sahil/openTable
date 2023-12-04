@@ -5,6 +5,7 @@ import MainBanner from '@/components/landingpage/section/mainBanner.vue';
 import Aboutus from '@/components/landingpage/section/Aboutus.vue';
 import Markuesection from '@/components/landingpage/section/Markuesection.vue';
 import RestaurantList from '@/components/landingpage/section/restaurant_listing.vue';
+import Imagessection from '@/components/landingpage/section/Imagessection.vue';
 import OurProducts from '@/components/landingpage/section/ourProducts.vue';
 import FrameWorks from '@/components/landingpage/section/frameWorks.vue';
 import UserReview from '@/components/landingpage/section/userReview.vue';
@@ -33,6 +34,7 @@ onMounted(() => {
          <Aboutus/>
         <Markuesection/>
         <RestaurantList/>
+        <Imagessection/>
         <OurProducts />
         <FrameWorks />
         <UserReview />
