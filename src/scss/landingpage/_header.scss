@@ -593,18 +593,18 @@ ul.social-network.social-circle {
 //     background-size: 100% auto;
 //     background-position: center right;
 // }
-// @keyframes rotateme{
-//     0% {
-//         transform: rotate(0deg);
-//         opacity: 1;
-//     }
+@keyframes rotateme{
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
     
-//     50% {
-//         transform: rotate(180deg);
-//     }
-//     100% {
-//         transform: rotate(360deg);
-//         opacity: 1;
-//     }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
     
-// }
+}
