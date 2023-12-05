@@ -12,7 +12,7 @@ const locationItems = ref([
 
 </script>
 <template>
-    <div class="py-16 overflow-hidden mainBannerHome">
+    <div class="py-16 overflow-hidden mainBannerHome mt-8">
         <v-container>
             <v-row class="pt-8">
                 <v-col cols="12" md="7" class="d-flex align-center">
