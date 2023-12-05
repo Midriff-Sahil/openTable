@@ -455,7 +455,7 @@ ul.regions_list li a {
   }
   .footer-top .widget-title {
     color: #ffffff;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .courses-link-list li+li {
     margin-top: 10px;
@@ -492,10 +492,11 @@ ul.regions_list li a {
     font-size: 40px !important;
   }
   .footer-top p {
-    margin-top: 27px;
-    margin-bottom:20px;
-    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    font-size: 14px;
     line-height: 25px;
+    letter-spacing: 0.2px;
 }
 
 .footer-top h5 {
@@ -507,8 +508,8 @@ ul.regions_list li a {
     list-style: none;
     position: relative;
 }
-.footer-top li a {
-    text-decoration: none;
+
+.footer-top .widget.course-links-widget li a , .footer-top .widget.latest-news-widget li a{
     padding-left: 24px;
 }
 .footer-top svg {
@@ -525,10 +526,13 @@ ul.regions_list li a {
 ul.company-footer-contact-list li a {
     color: #fff;
     padding-left: 27px;
+    padding-bottom: 12px;
 }
 .copy-right-text a {
     color: #fff;
     text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.12px;
 }
 .social-circle li a:hover svg,
 .triggeredHover {
@@ -542,27 +546,36 @@ ul.company-footer-contact-list li a {
   -ms-transition: all 0.2s;
   transition: all 0.2s;
 }
-.social-circle li svg {
+.social-circle li a {
     display: inline-block;
     position: relative;
-    margin: 0 auto 0 auto;
+    margin: 0px 5px auto;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    background: #b02e59;
+    width: 35px;
+    height: 35px;
+    background: #ffffff;
     font-size: 15px;
     padding: 5px;
 }
+.footer-top li a {
+    font-size: 14px !important;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
 .social-circle svg {
-  color: #595959;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  transition: all 0.8s;
+    stroke:#314e57;
+    height: 24px;
+    width: 24px;
+    margin-top: 0px;
+    margin-left: 5px;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
 }
 ul.social-network.social-circle a {
     padding-left: 10px;
@@ -584,7 +597,7 @@ ul.social-network.social-circle {
     content: '';
     width: 100%;
     height: 100%;
-    background-image: url(../../../src/assets/images/landingpage/zigzag-Shape.png);
+    background-image: url(../../../src/assets/images/landingpage/16.png);
     top: 0;
     left: 0;
     z-index: -1;
@@ -592,6 +605,20 @@ ul.social-network.social-circle {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center right;
+}
+.footer-section:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../src/assets/images/landingpage/06.png);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
 }
 @keyframes rotateme{
     0% {
