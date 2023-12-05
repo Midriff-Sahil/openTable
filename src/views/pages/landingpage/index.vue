@@ -4,6 +4,7 @@ import Header from '@/components/landingpage/layout/Header.vue';
 import MainBanner from '@/components/landingpage/section/mainBanner.vue';
 import Aboutus from '@/components/landingpage/section/Aboutus.vue';
 import RestaurantList from '@/components/landingpage/section/restaurant_listing.vue';
+import DisableTabs from "@/components/ui-components/tabs/DisableTabs.vue";
 import Imagessection from '@/components/landingpage/section/Imagessection.vue';
 import OurProducts from '@/components/landingpage/section/ourProducts.vue';
 import FrameWorks from '@/components/landingpage/section/frameWorks.vue';
@@ -32,6 +33,7 @@ onMounted(() => {
         <MainBanner />
          <Aboutus/>
         <RestaurantList/>
+        <DisableTabs/>
         <Imagessection/>
         <OurProducts />
         <FrameWorks />

@@ -39,6 +39,7 @@ import { ref } from 'vue';
                             <div class="about-block  about_endblock info-block col-xl-4 col-lg-4 col-md-12 col-sm-12">
                                 <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
                                     <div class="last_block">Book Your Table From Any Device You Have</div>
+                                    <div class="svg_image_lastblok mb-2"> <img src="@/assets/images/landingpage/separators.svg"></div>
                                     <ul class="info booking_point">
                                       <div class="list_about d-flex"><span class="list_icon"></span> <li>Get rid of the mess on your paper reservation book</li></div> 
                                       <div class="list_about d-flex"><span class="list_icon"></span> <li>Get rid of the mess on your paper reservation book</li></div> 

@@ -100,6 +100,7 @@
 }
 ul.info.booking_point li {
     list-style: none;
+    color:#fff;
 }
     .about_endblock {
         padding-left: 30px;
@@ -111,6 +112,7 @@ ul.info.booking_point li {
         margin-left: 15px;
         margin-right: 15px;
         text-align: center;
+        background-color: rgb(var(--v-theme-primary));
     }
 
     .about_endblock {
@@ -202,8 +204,8 @@ object-fit: cover;
 .last_block {
     font-size: 25px;
     line-height: 34px;
-    color: (var(--v-theme-background));
-    margin-bottom: 20px;
+    color:#fff;
+    margin-bottom: 5px;
     font-weight: 600;
 }
 .list_icon {
@@ -212,7 +214,7 @@ object-fit: cover;
     height: 11px;
     margin-top: 8px;
     width: 15px;
-    border: 2px solid rgb(var(--v-theme-primary));
+    border: 2px solid #fff;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
@@ -223,12 +225,12 @@ object-fit: cover;
 h3.animated.fadeIn {
     font-size: 120px;
 }
-.imagessectionHome {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-image: url(../../../src/assets/images/landingpage/imgpsh_fullsize_anim.jpg);
-}
+// .imagessectionHome {
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: 100% auto;
+//     background-image: url(../../../src/assets/images/landingpage/imgpsh_fullsize_anim.jpg);
+// }
 .image_text h3 {
     font-size: 35px;
     color: #fff;
@@ -239,9 +241,25 @@ h3.animated.fadeIn {
     text-align: center;
     padding-top:10px;
 }
+.svg_image_lastblok {
+    max-width: 39%;
+    margin: auto;
+}
 
+.tabs_head {
+    font-size: 18px;
+}
 
-
+button.v-btn.v-slide-group-item--active.v-tab--selected.v-theme--BLUE_THEME.text-primary.v-btn--density-default.v-btn--size-default.v-btn--variant-text.v-tab.tabs_head {
+    background-color: rgb(var(--v-theme-primary));
+    color: #fff !important;
+}
+.restraunts_listing{
+    display: flex;
+    list-style: none;
+    margin: 0 -16px -16px 0;
+    padding: 0;
+}
 @keyframes rotateme{
     0% {
         transform: rotate(0deg);
