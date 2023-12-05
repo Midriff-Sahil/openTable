@@ -59,18 +59,6 @@ import { ref } from 'vue';
                             <path d="M15 16l4 -4" />
                             <path d="M15 8l4 4" />
                           </svg>Contact Us</a></li>
-                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M5 12l14 0" />
-                            <path d="M15 16l4 -4" />
-                            <path d="M15 8l4 4" />
-                          </svg>Privacy Policy</a></li>
-                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M5 12l14 0" />
-                            <path d="M15 16l4 -4" />
-                            <path d="M15 8l4 4" />
-                          </svg>Refund Policy</a></li>
                       </ul>
                     </div>
                   </div><!-- widget end -->
@@ -78,36 +66,19 @@ import { ref } from 'vue';
                     <div class="widget latest-news-widget">
                         <h5 class="widget-title">Quick Links</h5>
                         <ul class="courses-link-list">
-                          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                       
+                         <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M5 12l14 0" />
                             <path d="M15 16l4 -4" />
                             <path d="M15 8l4 4" />
-                          </svg>Services</a></li>
-                          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M5 12l14 0" />
-                            <path d="M15 16l4 -4" />
-                            <path d="M15 8l4 4" />
-                          </svg>About Us</a></li>
-                          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M5 12l14 0" />
-                            <path d="M15 16l4 -4" />
-                            <path d="M15 8l4 4" />
-                          </svg>Contact Us</a></li>
+                          </svg>Refund Policy</a></li>
                           <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M5 12l14 0" />
                             <path d="M15 16l4 -4" />
                             <path d="M15 8l4 4" />
                           </svg>Privacy Policy</a></li>
-                          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M5 12l14 0" />
-                            <path d="M15 16l4 -4" />
-                            <path d="M15 8l4 4" />
-                          </svg>Refund Policy</a></li>
                         </ul>
                     </div>
                   </div><!-- widget end -->
