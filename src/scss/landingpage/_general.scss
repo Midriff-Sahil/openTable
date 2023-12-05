@@ -1,3 +1,7 @@
+.span.text-colorFill{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 1);  
+}
 .animate-charcter
 {
     // overflow: hidden;
@@ -130,7 +134,27 @@ ul.timingList {
         }
     } 
 }
-
+.cta-card,
+.about_endblock {
+    z-index: 9;
+}
+.cta-card:before,
+.about_endblock:before{
+    background-image: url(../../../src/assets/images/landingpage/tasty-menu-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    content: '';
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+.about_endblock:before{
+    filter: invert(0.7)
+}
 
 @media (min-width: 900px) {
     .bannerTitle {
