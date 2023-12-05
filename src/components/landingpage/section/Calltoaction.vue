@@ -31,7 +31,7 @@ import { ref } from 'vue';
                                         >
                                         </div>
                                     </header>
-                              gi
+                        
                                   
                                   </div>
                                 </section>
