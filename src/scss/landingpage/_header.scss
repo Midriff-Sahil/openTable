@@ -594,32 +594,34 @@ ul.social-network.social-circle {
 }
 .footer-section:before {
     position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-image: url(../../../src/assets/images/landingpage/16.png);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 0.5;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center right;
-}
-.footer-section:after {
-    position: absolute;
     content: "";
     width: 100%;
     height: 100%;
-    background-image: url(../../../src/assets/images/landingpage/06.png);
+    background-image: url(../../../src/assets/images/landingpage/tasty-menu-back.png);
     top: 0;
-    left: 0;
+    right: 0;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 1;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: top;
+    background-size: cover;
+    background-position: center;
+    // filter:invert(0.5)
 }
+
+// .footer-section:after {
+//     position: absolute;
+//     content: "";
+//     width: 100%;
+//     height: 100%;
+//     background-image: url(../../../src/assets/images/landingpage/06.png);
+//     top: 0;
+//     left: 0;
+//     z-index: -1;
+//     opacity: 1;
+//     background-repeat: no-repeat;
+//     background-size: 35% auto;
+//     background-position: top left;
+// }
 @keyframes rotateme{
     0% {
         transform: rotate(0deg);
