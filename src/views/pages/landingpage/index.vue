@@ -6,12 +6,12 @@ import Aboutus from '@/components/landingpage/section/Aboutus.vue';
 import RestaurantList from '@/components/landingpage/section/restaurant_listing.vue';
 import DisableTabs from "@/components/ui-components/tabs/DisableTabs.vue";
 import Imagessection from '@/components/landingpage/section/Imagessection.vue';
-import OurProducts from '@/components/landingpage/section/ourProducts.vue';
+// import OurProducts from '@/components/landingpage/section/ourProducts.vue';
 import FrameWorks from '@/components/landingpage/section/frameWorks.vue';
-import UserReview from '@/components/landingpage/section/userReview.vue';
-import Features from '@/components/landingpage/section/otherFeatures.vue';
-import AskQuestion from '@/components/landingpage/section/askQuestion.vue';
-import BuyNow from '@/components/landingpage/section/buyNow.vue';
+// import UserReview from '@/components/landingpage/section/userReview.vue';
+// import Features from '@/components/landingpage/section/otherFeatures.vue';
+// import AskQuestion from '@/components/landingpage/section/askQuestion.vue';
+// import BuyNow from '@/components/landingpage/section/buyNow.vue';
 import Footer from '@/components/landingpage/layout/Footer.vue';
 
 import 'aos/dist/aos.css';
@@ -35,12 +35,12 @@ onMounted(() => {
         <RestaurantList/>
         <DisableTabs/>
         <Imagessection/>
-        <OurProducts />
+        <!-- <OurProducts /> -->
         <FrameWorks />
-        <UserReview />
-        <Features />
-        <AskQuestion />
-        <BuyNow />
+        <!-- <UserReview /> -->
+        <!-- <Features /> -->
+        <!-- <AskQuestion /> -->
+        <!-- <BuyNow /> -->
         <!----------->
         <!--Footer-->
         <Footer />

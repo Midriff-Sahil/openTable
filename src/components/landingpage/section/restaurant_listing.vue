@@ -52,6 +52,12 @@ onMounted(() => {
     <section class="sectionListing ">
         <!--Header-->
         <v-container>
+            <div class="text-center">
+                <h2 class="text-center mt-4 mb-2 sectionTitle font-weight-bold">
+                    Most Popular Restaurants
+                </h2>
+                <div class="svg_image mb-9"> <img src="@/assets/images/landingpage/separator1.svg"></div>
+            </div>
             <v-row>
                 <v-col cols="12" lg="4" md="6" v-for="items in cardListing" :key="items">
                     <router-link to="/rrrrrrrrr" class="text-decoration-none linkMainColumn">
