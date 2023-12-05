@@ -32,7 +32,7 @@ const locationItems = ref([
                             >
                             <v-btn
                                 to=""
-                                color="accent"
+                                color="white"
                                 variant="outlined"
                                 class="mt-sm-0 mt-4 lp-btn-shadow m-btn-full btn-custom-lg"
                                 size="large"

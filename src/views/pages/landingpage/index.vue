@@ -32,8 +32,12 @@ onMounted(() => {
         <!----------->
         <!--Content-->
         <MainBanner />
+        <section class="py-12 bg-hoverColor">
          <Aboutus/>
-        <RestaurantList/>
+        </section>
+        <section class="py-12">
+            <RestaurantList/>
+        </section>
         <DisableTabs/>
         <!-- <Imagessection/> -->
         <Calltoaction/>
