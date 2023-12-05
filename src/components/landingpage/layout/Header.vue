@@ -31,7 +31,7 @@ const isScrolled = ref(false);
             <div class="topHeader">
                 <v-container class="py-1">
                     <div class="innerHeaderTop text-center">
-                        <p class="text-capitalize text-white">Connect to your digital reservation book from any device you have</p>
+                        <p class="text-capitalize text-white animate-charcter">Connect to your digital reservation book from any device you have</p>
                     </div>
                 </v-container>
             </div>

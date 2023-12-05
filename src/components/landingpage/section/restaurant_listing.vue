@@ -12,33 +12,33 @@ import AOS from 'aos';
 const cardListing = ref([
     {
         'image': image1,
-        'restName':'Restaurant Name',
-        'addressResto': 'Address City Landmark',
+        'restName':'Delicious Delights',
+        'addressResto': '4435 Lee Avenue Pennsauken, NJ 08110',
     },
     {
         'image': image2,
-        'restName':'Restaurant Name',
-        'addressResto': 'Address City Landmark',
+        'restName':'Taste Temptation',
+        'addressResto': '201 Black Stallion Road Winchester, KY 40391',
     },
     {
         'image': image3,
-        'restName':'Restaurant Name',
-        'addressResto': 'Address City Landmark',
+        'restName':'Flavorful Feasts',
+        'addressResto': '3940 Fieldcrest Road Lindenhurst, NY 11757',
     },
     {
         'image': image4,
-        'restName':'Restaurant Name',
-        'addressResto': 'Address City Landmark',
+        'restName':'Tantalizing Tastes',
+        'addressResto': '3686 Timbercrest Road Anchorage, AK 99501',
     },
     {
         'image': image5,
-        'restName':'Restaurant Name',
-        'addressResto': 'Address City Landmark',
+        'restName':'Culinary Creations',
+        'addressResto': '2621 Dovetail Estates Bennington, OK 74723',
     },
     {
         'image': image6,
-        'restName':'Restaurant Name',
-        'addressResto': 'Address City Landmark',
+        'restName':'Gastronomic Delights',
+        'addressResto': '562 Roguski Road Shreveport, LA 71107',
     }
 ])
 
@@ -49,7 +49,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <section class="sectionListing ">
+    <div class="sectionListing ">
         <!--Header-->
         <v-container>
             <div class="text-center">
@@ -91,9 +91,6 @@ onMounted(() => {
                                     <li>
                                         <router-link class="text-decoration-none" to="/">4:30 PM</router-link>
                                     </li>
-                                    <li>
-                                        <router-link class="text-decoration-none" to="/">5:00 PM</router-link>
-                                    </li>
                                 </ul>
                             </v-card-item>
                         </v-card>
@@ -101,5 +98,5 @@ onMounted(() => {
                 </v-col>
             </v-row>
         </v-container>
-    </section>
+    </div>
 </template>

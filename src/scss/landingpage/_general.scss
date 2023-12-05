@@ -1,12 +1,36 @@
+.animate-charcter
+{
+    // overflow: hidden;
+    // background: linear-gradient(90deg, #000, #fff, #000);
+    // background-repeat: no-repeat;
+    // background-size: 80%;
+    // animation: animate 3s linear infinite;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    // position: relative;
+    color:#fff;
+}
+
+// @keyframes animate {
+//     0% {
+//         background-position: -500%;
+//       }
+//       100% {
+//         background-position: 500%;
+//       }
+// }
 // Banner
 .mainBannerHome{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-image: url(../../../src/assets/images/landingpage/banner.jpg)
 }
 .v-app-bar .v-toolbar__content .v-btn.text-white {
     color: rgba(255,255,255, 0.8) !important;
+}
+.bg-white{
+    background-color: #fff;
 }
 header.lp-header.headerCustomStyle {
     position: absolute!important;
@@ -14,7 +38,9 @@ header.lp-header.headerCustomStyle {
     left:0!important;
     right:0!important;
 }
-
+.max-width100{
+    max-width:100%;
+}
 .mainHeaderTop{transition: 0.38s ease-in-out 0s all;}
 .scrolled {
     position: fixed!important;
@@ -91,14 +117,16 @@ ul.timingList {
 
     >li {
         padding: 4px;
+        width:25%;
         > a {
-            display: inline-block;
-            padding: 4px;
-            background-color: #b02e59;
+            display: block;
+            padding: 10px 4px;
+            background-color: rgb(var(--v-theme-accent));
             color: #fff;
             line-height: 1;
             border-radius: 4px;
-            font-size: 13px;
+            font-size: 15px;
+            text-align: center;
         }
     } 
 }
