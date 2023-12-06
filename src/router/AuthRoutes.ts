@@ -15,6 +15,7 @@ const AuthRoutes = {
             path: '/about',
             component: () => import('@/views/pages/landingpage/about_us.vue')
         },
+    
         {
             name: 'Side Login',
             path: '/auth/login',

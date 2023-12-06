@@ -415,9 +415,6 @@ ul.regions_list li a {
     overflow: hidden;
     z-index: 9;
   }
-  .footer-top li a:hover {
-    color: #a8d9e8;
-}
 
   .footer-top {
     padding-top: 96px;
@@ -495,7 +492,7 @@ ul.regions_list li a {
   }
   .footer-top p {
     margin-top: 15px;
-    margin-bottom:15px;
+    margin-bottom:30px;
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 0.2px;
@@ -537,18 +534,7 @@ ul.company-footer-contact-list li a {
     font-size: 14px;
     letter-spacing: 0.12px;
 }
-.social-circle li a:hover svg,
-.triggeredHover {
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -ms--transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  transition: all 0.2s;
-}
+
 .social-circle li a {
     display: inline-block;
     position: relative;
@@ -557,8 +543,8 @@ ul.company-footer-contact-list li a {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 37px;
     background: #ffffff;
     font-size: 15px;
     padding: 5px;
@@ -569,11 +555,11 @@ ul.company-footer-contact-list li a {
     text-decoration: none;
 }
 .social-circle svg {
-    stroke:#314e57;
-    height: 24px;
-    width: 24px;
-    margin-top: 3px;
-    margin-left: 5px;
+    fill: #033b4c;
+    height: 22px;
+    width: 22px;
+    margin-top: 5px;
+    margin-left: 8px;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
@@ -582,12 +568,15 @@ ul.company-footer-contact-list li a {
 }
 ul.social-network.social-circle a {
     padding-left: 10px;
+    opacity: 0.7;
 }
 ul.social-network.social-circle {
     display: flex;
     margin-left: -12px !important;
 }
-
+ul.courses-link-list li a:hover, ul.company-footer-contact-list li a:hover {
+    color: #9dd0e0;
+}
 .social_links h4 {
     margin-bottom: 20px;
     color: #fff;
@@ -639,4 +628,152 @@ ul.social-network.social-circle {
         opacity: 1;
     }
     
+}
+
+
+// about us code'
+
+.about-banner {
+    min-height: 400px;
+}
+
+.about-banner {
+    background:url(../../../src/assets/images/landingpage/imgpsh_fullsize_anim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-banner h1 {
+    line-height: 1.5em;
+    text-align: center;
+}
+.about-banner p{
+    text-align: center;
+}
+.margin-top-80 {
+    margin-top: 80px;
+}
+.about_bannercontent{
+    margin-top:-53px;
+}
+.wrapper_about {
+	width: 100%;
+}
+.photobanner {
+    position: relative;
+    height: 148px;
+    margin-top: -70px;
+    margin-bottom:50px;
+    display: flex;
+    width: 100%;
+}
+
+.photobanner img {
+    margin: 0px 9px;
+    box-shadow: 2px 2px 8px #8a8a8a;
+    border-radius: 20px;
+}
+.photobanner {
+  animation: bannermove 50s linear infinite alternate-reverse;
+}
+
+@keyframes bannermove {
+  from {
+    left: -2700px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+
+.Our_story_section img {
+    width: 100%;
+    max-height: 368px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Our_story h4:before {
+    position: absolute;
+    content: "";
+    bottom: 10px;
+    left: -48px;
+    width: 36px;
+    height: 2px;
+    line-height: inherit;
+    background-color: #b02e59;
+}
+.Our_story h4 {
+   position: relative;
+}
+.head_cst{
+    z-index: 1;
+}
+.Our_story_section {
+    margin-top: -42px;
+    font-weight: bold;
+}
+.Our_story h2 {
+    font-size: 60px;
+    line-height: 62px;
+}
+section.more_aboutus {
+    padding: 50px 0;
+}
+.Our_story_sectiontwo p {
+   margin-bottom: 10px; 
+}
+.Our_story_sectiontwo {
+    margin-top: -28px;
+}
+.check_box {
+    display: flex;
+    margin-bottom: 10px;
+}
+.check_box h3 {
+    margin-left: 15px;
+}
+.check_box h4{
+    font-size: 22px;
+    line-height: 32px;
+    color: #b02e59;
+}
+
+.book_button a {
+    padding: 13px 15px;
+    text-decoration: none;
+    background: #314e57;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.book_button {
+    margin-top:10px;
+}
+p.story_p {
+    margin-bottom: 30px;
+}
+.bg_cards{
+    background: rgb(95 159 179 / 14%);
+}
+.testimonial_image {
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+.testi_cstm{
+    margin-bottom: 30px !important;
+}
+.name_user{
+    padding-top:10px;
+}
+.testi_cstm svg {
+    position: absolute;
+    top: -18px;
+    left: 8px;
+}
+.testi_cstm {
+    position: relative;
+    margin-top: 10px !important;
 }
