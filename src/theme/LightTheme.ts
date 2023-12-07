@@ -25,7 +25,7 @@ const BLUE_THEME: ThemeTypes = {
         inputBorder: '#DFE5EF',
         containerBg: '#ffffff',
         background: '#ffffff',
-        hoverColor: '#f6f9fc',
+        hoverColor: '#f2f8ff',
         surface: '#fff',
         'on-surface-variant': '#fff',
         grey100: '#F2F6FA',

@@ -98,7 +98,7 @@ header.lp-header.headerCustomStyle {
 
 .imageCardStyle {
     width: 100%;
-    height: 250px;
+    height: 210px;
     overflow: hidden;
     >img {
         object-fit: cover;
@@ -117,7 +117,7 @@ ul.timingList {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    margin: 7px -4px 0 -4px;
+    margin: 0px -4px 0 -4px;
 
     >li {
         padding: 4px;
@@ -131,6 +131,25 @@ ul.timingList {
             border-radius: 4px;
             font-size: 15px;
             text-align: center;
+            height:35px;
+            &.disabled{
+                background-color: #f1e9ec;
+                cursor: no-drop;
+                pointer-events: none;
+                position: relative;
+                overflow: hidden;
+                &::before {
+                    background-color: #f1e9ec;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 9;
+                }
+            }
+            
         }
     } 
 }
@@ -155,6 +174,219 @@ ul.timingList {
 .about_endblock:before{
     filter: invert(0.7)
 }
+.card-footer-listing {
+    border-top: 1px solid #e2ecef;
+}
+.shadowAdded{
+    box-shadow: 0px 20px 80px rgba(30, 30, 30, 0.1)!important;
+}
+.smallHeht{
+    height:40px!important;
+}
+.detailContentList {
+    p{
+        font-size: 14px;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+        line-height: 1.6;
+    }
+    ul {
+        margin-top:10px;
+        li{
+            position: relative;
+            padding-left: 25px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            &:before {
+                position: absolute;
+                content: "";
+                left: 0;
+                width: 16px;
+                height: 16px;
+                top: 3px;
+                background-image: url(../../../src/assets/images/landingpage/imgpsh_fullsize_anim.png);
+                background-repeat: no-repeat;
+                background-size: 14px auto;
+                background-position: center;
+            }
+        }
+    }
+    
+}
+.classCardImage:first-child{
+    display: none;
+}
+.mainCardGallery{
+    position: relative;
+}
+.totalListData {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    h3 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.fullWdthImg{
+    width:100%!important;
+    height:100%!important;
+    object-fit:cover;
+}
+.progressBarList {
+    width: 100%;
+    height: 10px;
+    background-color: #d9e5e9;
+    position: relative;
+    overflow: hidden;
+}
+
+.innerResultPro {
+    background-color: #b02e59;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.foodImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foodImage {
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.mainFoodCard {
+    background-color: #eaeff1;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.foodContent {
+    padding: 10px;
+    width: calc(100% - 100px);
+}
+
+.foodContent p {
+    margin-bottom: 10px;
+}
+.orderCancel {
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+// button Qunatity
+.qty-input {
+    color: #000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-width:90px;
+    margin-bottom: 10px;
+  }
+  .qty-input .product-qty,
+  .qty-input .qty-count {
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    border: none;
+    display: inline-block;
+    min-width: 0;
+    height: 22px;
+    line-height: 1;
+  }
+  .qty-input .product-qty:focus,
+  .qty-input .qty-count:focus {
+    outline: none;
+  }
+  .qty-input .product-qty {
+    width: 42px;
+    min-width: 0;
+    display: inline-block;
+    text-align: center;
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+    font-size: 15px;
+  }
+  .qty-input .product-qty::-webkit-outer-spin-button, .qty-input .product-qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+    margin: 0;
+  }
+  .qty-input .qty-count {
+    padding: 0;
+    cursor: pointer;
+    width: 22px;
+    font-size: 15px;
+    text-indent: -100px;
+    overflow: hidden;
+    position: relative;
+  }
+  .qty-input .qty-count:before, .qty-input .qty-count:after {
+    content: "";
+    height: 2px;
+    width: 10px;
+    position: absolute;
+    display: block;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .qty-input .qty-count--minus {
+    border-right: 1px solid #e2e2e2;
+  }
+  .qty-input .qty-count--add {
+    border-left: 1px solid #e2e2e2;
+  }
+  .qty-input .qty-count--add:after {
+    transform: rotate(90deg);
+  }
+  .qty-input .qty-count:disabled {
+    color: #ccc;
+    background: #f2f2f2;
+    cursor: not-allowed;
+    border-color: transparent;
+  }
+  .qty-input .qty-count:disabled:before, .qty-input .qty-count:disabled:after {
+    background: #ccc;
+  }
+  
+  
+  .qty-input {
+    border-radius: 4px;
+    box-shadow: 0 1em 2em -0.9em rgba(0, 0, 0, 0.7);    
+  }
+
+
+
 
 @media (min-width: 900px) {
     .bannerTitle {

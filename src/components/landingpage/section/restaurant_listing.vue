@@ -13,31 +13,37 @@ const cardListing = ref([
     {
         'image': image1,
         'restName':'Delicious Delights',
+        'specialDish':'French',
         'addressResto': '4435 Lee Avenue Pennsauken, NJ 08110',
     },
     {
         'image': image2,
         'restName':'Taste Temptation',
+        'specialDish':'American',
         'addressResto': '201 Black Stallion Road Winchester, KY 40391',
     },
     {
         'image': image3,
         'restName':'Flavorful Feasts',
+        'specialDish':'Southern',
         'addressResto': '3940 Fieldcrest Road Lindenhurst, NY 11757',
     },
     {
         'image': image4,
         'restName':'Tantalizing Tastes',
+        'specialDish':'Italian',
         'addressResto': '3686 Timbercrest Road Anchorage, AK 99501',
     },
     {
         'image': image5,
         'restName':'Culinary Creations',
+        'specialDish':'Mediterranean',
         'addressResto': '2621 Dovetail Estates Bennington, OK 74723',
     },
     {
         'image': image6,
         'restName':'Gastronomic Delights',
+        'specialDish':'Californian',
         'addressResto': '562 Roguski Road Shreveport, LA 71107',
     }
 ])
@@ -61,37 +67,42 @@ onMounted(() => {
             <v-row>
                 <v-col cols="12" lg="4" md="6" v-for="items in cardListing" :key="items">
                     <router-link to="/rrrrrrrrr" class="text-decoration-none linkMainColumn">
-                        <v-card class="bg-hoverColor" elevation="10">
-                            <v-card-item class="pa-3">
-                                <div class="imageCardStyle mb-4">
+                        <v-card class="shadowAdded" elevation="10">
+                            <v-card-item class="pa-0">
+                                <div class="imageCardStyle mb-1">
                                     <img :src="items.image" alt="image1">
                                 </div>
-                                <div class="d-flex">
-                                    <div class="">
-                                        <i class="mdi mdi-star text-accent"></i>
-                                        <i class="mdi mdi-star text-accent"></i>
-                                        <i class="mdi mdi-star text-accent"></i>
-                                        <i class="mdi mdi-star text-accent"></i>
-                                        <i class="mdi mdi-star text-accent"></i>
+                                <div class="pa-3">
+                                    <div class="d-flex">
+                                        <div class="">
+                                            <i class="mdi mdi-star text-accent"></i>
+                                            <i class="mdi mdi-star text-accent"></i>
+                                            <i class="mdi mdi-star text-accent"></i>
+                                            <i class="mdi mdi-star text-accent"></i>
+                                            <i class="mdi mdi-star text-accent"></i>
+                                        </div>
+                                        <p class="text-subtitle-1 ps-2 pt-1">(25 Reviews)</p>
                                     </div>
-                                    <p class="text-subtitle-1 ps-2 pt-1">(25 Reviews)</p>
+                                    <h3 class="mt-1 mb-2 text-h5">{{items.restName}}</h3>
+                                    <v-chip color="primary" size="small" class="rounded-1 mb-3"><p class="text-subtitle-1 text-accent font-weight-medium" ><ToolsKitchen2Icon size="16" color="accent"  class="text-accent me-1 text-subtitle-1"/>{{items.specialDish}}</p></v-chip>
+                                    <p class="text-subtitle-1 mb-1"><i class="mdi mdi-map-marker text-medium-emphasis"></i> {{items.addressResto}} </p>
                                 </div>
-                                <h3 class="mb-1 text-h5">{{items.restName}}</h3>
-                                <p class="text-subtitle-1"><i class="mdi mdi-map-marker text-medium-emphasis"></i> {{items.addressResto}} </p>
-                                <ul class="timingList">
-                                    <li>
-                                        <router-link class="text-decoration-none" to="/">3:00 PM</router-link>
-                                    </li>
-                                    <li>
-                                        <router-link class="text-decoration-none" to="/">3:30 PM</router-link>
-                                    </li>
-                                    <li>
-                                        <router-link class="text-decoration-none" to="/">4:00 PM</router-link>
-                                    </li>
-                                    <li>
-                                        <router-link class="text-decoration-none" to="/">4:30 PM</router-link>
-                                    </li>
-                                </ul>
+                                <div class="px-3 py-2 border-top card-footer-listing">
+                                    <ul class="timingList mt-0">
+                                        <li>
+                                            <router-link class="text-decoration-none" to="/">3:00 PM</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link class="text-decoration-none" to="/">3:30 PM</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link class="text-decoration-none" to="/">4:00 PM</router-link>
+                                        </li>
+                                        <li>
+                                            <router-link class="text-decoration-none" to="/">4:30 PM</router-link>
+                                        </li>
+                                    </ul>
+                                </div>
                             </v-card-item>
                         </v-card>
                     </router-link>
