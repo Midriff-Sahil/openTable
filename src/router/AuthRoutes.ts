@@ -15,6 +15,7 @@ const AuthRoutes = {
             path: '/about',
             component: () => import('@/views/pages/landingpage/about_us.vue')
         },
+    
         {
             name: 'Restaurant Detail',
             path: '/restaurant_detail',
