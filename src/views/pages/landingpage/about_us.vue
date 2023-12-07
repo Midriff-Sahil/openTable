@@ -87,6 +87,7 @@ onMounted(() => {
       </v-col>
       <v-col cols="6" class="align-center">
         <div class="Our_story_sectiontwo">
+            <img src="/src/assets/images/landingpage/imagesbg.png">
             <p>We love what can happen around the restaurant table. And since 1998 we’ve been <br>committed to empowering that experience. From helping restaurants of all sizes thrive,<br> to enabling diners to find and book the perfect table for every occasion, our story is one <br> of human connection—among diners and restaurants, and between restaurants and their communities.</p>
             <p class="story_p">We love what can happen around the restaurant table. And since 1998 we’ve been <br>committed to empowering that experience. From helping restaurants of all sizes thrive,<br> to enabling diners to find and book the perfect table for every occasion, our story is one <br> of human connection—among diners and restaurants, and between restaurants and their communities.</p> <div class="book_button">
     <a href="">Book a Table</a>
@@ -144,7 +145,7 @@ onMounted(() => {
         <v-container class="maxWidth">
             <v-row class="justify-center">
                 <v-col cols="12" sm="8">
-                    <h2 class="sectionTitle text-center font-weight-bold"> See what our client's say</h2>
+                    <h2 class="sectionTitle text-center font-weight-bold"> What People Are Saying</h2>
                     <div class="svg_image"> <img src="@/assets/images/landingpage/separator1.svg"></div>
                 </v-col>
             </v-row>

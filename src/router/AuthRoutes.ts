@@ -12,8 +12,13 @@ const AuthRoutes = {
         },
         {
             name: 'About Page',
-            path: '/about',
+            path: '/about-us',
             component: () => import('@/views/pages/landingpage/about_us.vue')
+        },
+        {
+            name: 'Contact Page',
+            path: '/contact-us',
+            component: () => import('@/views/pages/landingpage/contact_us.vue')
         },
     
         {
