@@ -307,19 +307,87 @@ function hideOrder(index:any) {
                                                                                 </div>
                                                                             </v-col>
                                                                         </v-row>
-                                                                        <div class="">
+                                                                        <div class="mt-5">
                                                                             <v-row>
-                                                                                <v-col cols="12" sm="6">
-                                                                                    <v-label class="mb-2 font-weight-medium">Success Input</v-label>
-                                                                                    <v-text-field variant="outlined" placeholder="Success value" color="primary"></v-text-field>
+                                                                                  <v-col cols="4" class="py-1">
+                                                                                    <v-text-field  variant="outlined" type="date" hide-details>
+                                                                                        <template v-slot:prepend-inner>
+                                                                                            <CalendarIcon stroke-width="1.5" size="22" class=" text-medium-emphasis mr-3" />
+                                                                                        </template>
+                                                                                    </v-text-field>
+                                                                                </v-col>
+                                                                                <v-col cols="4" class="py-1">
+                                                                                    <v-select
+                                                                                        v-model="TimeModel"
+                                                                                        :items="TimeItems"
+                                                                                        item-title="state"
+                                                                                        item-value="abbr"
+                                                                                        label="Select Time"
+                                                                                        return-object
+                                                                                        single-line
+                                                                                        variant="outlined"
+                                                                                        hide-details
+                                                                                    >
+                                                                                    <template v-slot:prepend-inner>
+                                                                                        <ClockIcon stroke-width="1.5" size="22" class="text-medium-emphasis mr-3" />
+                                                                                    </template>
+                                                                                    </v-select>
+                                                                                </v-col>
+                                                                                <v-col cols="4" class="py-1">
+                                                                                    <v-select
+                                                                                    v-model="personModel"
+                                                                                    :items="personItems"
+                                                                                    item-title="state"
+                                                                                    item-value="abbr"
+                                                                                    label="Select People"
+                                                                                    return-object
+                                                                                    single-line
+                                                                                    variant="outlined"
+                                                                                    hide-details
+                                                                                    >
+                                                                                    <template v-slot:prepend-inner>
+                                                                                            <UserIcon stroke-width="1.5" size="22" class=" text-medium-emphasis mr-3" />
+                                                                                    </template>
+                                                                                    </v-select>
+                                                                                </v-col>
+                                                                              
+                                                                               
+                                                                                
+                                                                                <v-col cols="12" class="py-1">
+                                                                                    <v-btn color="accent" size="large"  @click="toggleTimeListing" class="w-100 mt-3 mb-5">Find a time</v-btn>
+                                                                                </v-col>
+                                                                                
+                                                                                
+                                                                                <v-col cols="12" class="pt-2" v-if="timeListing">
+                                                                                    <h3 class="text-h6 mb-2">Select a time</h3>
+                                                                                    <ul class="timingList mt-0">
+                                                                                        <li>
+                                                                                            <router-link class="text-decoration-none disabled" to="/"></router-link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <router-link class="text-decoration-none disabled"  to="/"></router-link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <router-link class="text-decoration-none" to="/">3:00 PM</router-link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <router-link class="text-decoration-none" to="/">3:30 PM</router-link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <router-link class="text-decoration-none" to="/">4:00 PM</router-link>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <router-link class="text-decoration-none" to="/">4:30 PM</router-link>
+                                                                                        </li>
+                                                                                    </ul>
                                                                                 </v-col>
                                                                             </v-row>
                                                                         </div>
                                                                     </v-card-text>
-                                                                    <v-card-actions>
+                                                                    <!-- <v-card-actions>
                                                                         <v-btn color="primary" @click="addNote">Save</v-btn>
                                                                         <v-btn color="primary" @click="foodSelectDialog = false">Close Dialog</v-btn>
-                                                                    </v-card-actions>
+                                                                    </v-card-actions> -->
                                                                 </v-card>
                                                             </v-dialog>
                                                         </div>
