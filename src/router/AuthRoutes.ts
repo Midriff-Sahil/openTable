@@ -22,6 +22,11 @@ const AuthRoutes = {
         },
     
         {
+            name: 'Restaurant Detail',
+            path: '/restaurant_detail',
+            component: () => import('@/views/pages/landingpage/singleRestaurant.vue')
+        },
+        {
             name: 'Side Login',
             path: '/auth/login',
             component: () => import('@/views/authentication/SideLogin.vue')
