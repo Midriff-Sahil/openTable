@@ -383,6 +383,100 @@ function hideOrder(index:any) {
                                                                                 </v-col>
                                                                             </v-row>
                                                                         </div>
+
+                                                                        <div class="exp_summary mt-5">
+                                                                            <h4 class="text-h6 mb-4">You're almost done</h4>
+                                                                            <div class="date_data mt-5 mb-5">
+                                                                                <v-row>
+                                                                                    <v-col cols="4" class="py-1">
+                                                                                    <div class="data_details d-flex">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                                                            <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                                                                                            <path d="M16 3l0 4" />
+                                                                                            <path d="M8 3l0 4" />
+                                                                                            <path d="M4 11l16 0" />
+                                                                                            <path d="M8 15h2v2h-2z" />
+                                                                                          </svg>
+                                                                                          <h4 class="font-weight-medium text_data">Sun,Dec 23</h4>
+                                                                                    </div>
+                                                                                  </v-col>
+                                                                                  <v-col cols="4" class="py-1">
+                                                                                    <div class="data_details d-flex">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock-hour-3" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                                                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                                                                            <path d="M12 12h3.5" />
+                                                                                            <path d="M12 7v5" />
+                                                                                          </svg>
+                                                                                          <h4 class="font-weight-medium text_data">5:00 PM</h4>
+                                                                                    </div>
+                                                                                  </v-col>
+                                                                                  <v-col cols="4" class="py-1">
+                                                                                    <div class="data_details d-flex">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                                                        <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                                                                                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                                                                      </svg>
+                                                                                      <h4 class="font-weight-medium text_data">2 people</h4>
+                                                                                      </div>
+
+                                                                                  </v-col>
+                                                                                  </v-row>
+
+                                                                                  <div class="total_summary">
+                                                                                    <v-row>
+                                                                                        <v-col cols="12" class="py-1">
+                                                                                       <h5 class="mt-4 mb-3">
+                                                                                          Experience Summary
+                                                                                       </h5>
+                                                                                      </v-col>
+                                                                                      
+                                                                                      </v-row>
+                                                                                      <v-row>
+                                                                                        <v-col cols="11" class="py-1">
+                                                                                       <h5 class="">
+                                                                                          Experience Summary
+                                                                                       </h5>
+                                                                                      </v-col>
+                                                                                      <v-col cols="1" class="edit_btn">
+                                                                                        <div class="text_summary">
+                                                                                        <h5 class="">
+                                                                                           Edit
+                                                                                        </h5>
+                                                                                        </div>
+                                                                                       </v-col>
+                                                                                      
+                                                                                      </v-row>
+                                                                                      <div class="total_pr mt-5 mb-5">
+
+                                                                                      <v-row>
+                                                                                        <v-col cols="10" class="py-1">
+                                                                                       <h5 class="pr_total mt-5">
+                                                                                        2 x Christmas in Paris
+                                                                                       </h5>
+                                                                                      </v-col>
+                                                                                      <v-col cols="2" class="py-1">
+                                                                                        <div class="ptotal_price mt-5">
+                                                                                        <h5 class="pr_total">
+                                                                                            $170.00
+                                                                                        </h5>
+                                                                                        </div>
+                                                                                       </v-col>
+                                                                                      
+                                                                                      </v-row>
+                                                                                    </div>
+                                                                                  </div>
+
+                                                                                  
+
+                                                                                  
+                                                                            </div>
+
+                                                                        </div>
+
+
                                                                     </v-card-text>
                                                                     <!-- <v-card-actions>
                                                                         <v-btn color="primary" @click="addNote">Save</v-btn>
