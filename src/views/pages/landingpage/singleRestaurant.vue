@@ -509,7 +509,53 @@ function hideOrder(index:any) {
                                                                         </div>
 
                                                                         <div class="">
-                                                                            <h2 class="text-h4">Diner details</h2>
+                                                                            <h2 class="text-h4 mb-5">Diner details</h2>
+
+                                                                        </div>
+
+                                                                        <div class="">
+                                                            
+                                                                              <form>
+                                                                                <div class="form-row d-flex mb-3">
+                                                                                  <div class="col-6 input_fieldsborder input_marg">
+                                                                                    <input type="text" class="form-control" placeholder="First name">
+                                                                                  </div>
+                                                                                  <div class="col-6 input_fieldsborder">
+                                                                                    <input type="text" class="form-control" placeholder="Last name">
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div class="form-row d-flex mb-3">
+                                                                                    <div class="col-6 input_fieldsborder input_marg">
+                                                                                        <input class="phonenumber" autocomplete="tel" type="tel" id="phoneNumber" placeholder="Phone number" aria-invalid="false" aria-label="Phone number" aria-describedby="phoneNumber-error" aria-required="true" value="">
+                                                                                    </div>
+                                                                                    <div class="col-6 input_fieldsborder">
+                                                                                        <input type="email" class="form-check-input" placeholder="Email" id="exampleCheck1">
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div class="form-row d-flex mb-3">
+                                                                                    <div class="col-6 input_fieldsborder input_marg">
+                                                                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                                                                
+                                                                                            <option selected>Select an occasion (optional)</option>
+                                                                                               <option value="birthday">Birthday</option>
+                                                                                               <option value="anniversary">Anniversary</option>
+                                                                                               <option value="date">Date night</option>
+                                                                                               <option value="business_meal">Business Meal</option>
+                                                                                               <option value="special_occasion">Celebration</option>
+                                                                                             </select>
+                                                                                    </div>
+                                                                                    <div class="col-6 input_fieldsborder">
+                                                                                        <textarea class="form-control" placeholder="Add a special request (optional)" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                                                    </div>
+                                                                                   </div>
+
+                                                                                   <div class="credit_card">
+                                                                                    <h4>Credit card required</h4> 
+                                                                                    <p  class="mt-2">This restaurant requires a credit card to secure this reservation. All credit card information will be processed securely. No-shows or cancellations less than 1 week in advance will be subject to a charge of $55 per person.</p>
+                                                                                 </div>
+                                                                                
+                                                                                  
+                                                                                </form>
 
                                                                         </div>
 
