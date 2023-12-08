@@ -235,6 +235,7 @@ ul.timingList.innerModalListing{
     justify-content: center;
     align-items: center;
     pointer-events: none;
+    z-index:9;
     h3 {
         color: #fff;
         font-size: 16px;
