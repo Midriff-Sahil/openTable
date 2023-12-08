@@ -688,7 +688,7 @@ function hideOrder(index:any) {
                         </v-col>
                         <v-col cols="12" md="5" lg="4" class="mt-md-n16">
                             <div class="">
-                                <v-card class="shadowAdded pa-0">
+                                <v-card class="shadowAdded z-index-1 pa-0">
                                     <v-card-item class="pa-0">
                                         <div class="pa-4 border-bottom border-primary">
                                             <h2 class="text-h4 text-center">Make a reservation</h2>
@@ -771,7 +771,7 @@ function hideOrder(index:any) {
                                         </div>
                                     </v-card-item>
                                 </v-card>
-                                <v-card class="shadowAdded mt-4">
+                                <v-card class="shadowAdded z-index-1 mt-4">
                                     <v-card-item class="pa-3 ">
                                         <!-- <h3 class="text-h4 mb-3">Address</h3> -->
                                         <iframe src="https://maps.google.com/maps?q=USA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 300px;"></iframe>  
