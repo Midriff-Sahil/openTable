@@ -283,7 +283,7 @@ function hideOrder(index:any) {
                                                             <v-dialog v-model="foodSelectDialog" max-width="800">
                                                                 <v-card>
                                                                     <v-card-text>
-                                                                        <h4 class="text-h6 mb-4">Your Order List</h4>
+                                                                        <h4 class="text-h4 mb-4">Find a table</h4>
                                                                         <v-row>
                                                                             <v-col cols="12" md="6" v-for="(food, index) in foodList" :key="index">
                                                                                 <div class="mainFoodCard d-flex h-100">
@@ -297,7 +297,6 @@ function hideOrder(index:any) {
                                                                                             <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
                                                                                             <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
                                                                                             <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
-                                                                                        
                                                                                         </div>
                                                                                         <div class="d-flex justify-space-between align-center">
                                                                                             <v-btn size="small" color="accent">Cancel Item</v-btn>
@@ -360,7 +359,7 @@ function hideOrder(index:any) {
                                                                                 
                                                                                 <v-col cols="12" class="pt-2" v-if="timeListing">
                                                                                     <h3 class="text-h6 mb-2">Select a time</h3>
-                                                                                    <ul class="timingList mt-0">
+                                                                                    <ul class="timingList mt-0 innerModalListing">
                                                                                         <li>
                                                                                             <router-link class="text-decoration-none disabled" to="/"></router-link>
                                                                                         </li>
@@ -428,45 +427,78 @@ function hideOrder(index:any) {
                                                                                   <div class="total_summary">
                                                                                     <v-row>
                                                                                         <v-col cols="12" class="py-1">
-                                                                                       <h5 class="mt-4 mb-3">
-                                                                                          Experience Summary
-                                                                                       </h5>
+                                                                                            <h5 class="text-h5 mt-10 mb-3">
+                                                                                                Your Order Detail
+                                                                                            </h5>
                                                                                       </v-col>
-                                                                                      
-                                                                                      </v-row>
-                                                                                      <v-row>
-                                                                                        <v-col cols="11" class="py-1">
-                                                                                       <h5 class="">
-                                                                                          Experience Summary
-                                                                                       </h5>
-                                                                                      </v-col>
-                                                                                      <v-col cols="1" class="edit_btn">
-                                                                                        <div class="text_summary">
-                                                                                        <h5 class="">
-                                                                                           Edit
-                                                                                        </h5>
-                                                                                        </div>
-                                                                                       </v-col>
                                                                                       
                                                                                       </v-row>
                                                                                       <div class="total_pr mt-5 mb-5">
-
-                                                                                      <v-row>
-                                                                                        <v-col cols="10" class="py-1">
-                                                                                       <h5 class="pr_total mt-5">
-                                                                                        2 x Christmas in Paris
-                                                                                       </h5>
-                                                                                      </v-col>
-                                                                                      <v-col cols="2" class="py-1">
-                                                                                        <div class="ptotal_price mt-5">
-                                                                                        <h5 class="pr_total">
-                                                                                            $170.00
-                                                                                        </h5>
-                                                                                        </div>
-                                                                                       </v-col>
-                                                                                      
-                                                                                      </v-row>
-                                                                                    </div>
+                                                                                            <div class="border-bottom">
+                                                                                                <v-row class="my-n1 align-center">
+                                                                                                    <v-col cols="col" class="">
+                                                                                                        <h5 class="pr_total">
+                                                                                                            1 x Grilled Pork Chop Chutney
+                                                                                                        </h5>
+                                                                                                    </v-col>
+                                                                                                    <v-col cols="auto" >
+                                                                                                        <div class="ptotal_price">
+                                                                                                            <h5 class="pr_total">
+                                                                                                                $100.00
+                                                                                                            </h5>
+                                                                                                        </div>
+                                                                                                    </v-col>
+                                                                                                </v-row>
+                                                                                            </div>
+                                                                                            <div class="border-bottom">
+                                                                                                <v-row class="my-n1 align-center">
+                                                                                                    <v-col cols="col" class="">
+                                                                                                        <h5 class="pr_total">
+                                                                                                            1 x Grilled Pork Chop Chutney
+                                                                                                        </h5>
+                                                                                                    </v-col>
+                                                                                                    <v-col cols="auto">
+                                                                                                        <div class="ptotal_price">
+                                                                                                            <h5 class="pr_total">
+                                                                                                                $100.00
+                                                                                                            </h5>
+                                                                                                        </div>
+                                                                                                    </v-col>
+                                                                                                </v-row>
+                                                                                            </div>
+                                                                                            <div class="border-bottom">
+                                                                                                <v-row class="my-n1 align-center">
+                                                                                                    <v-col cols="col" class="">
+                                                                                                        <h5 class="pr_total">
+                                                                                                            1 x Grilled Pork Chop Chutney
+                                                                                                        </h5>
+                                                                                                    </v-col>
+                                                                                                    <v-col cols="auto">
+                                                                                                        <div class="ptotal_price">
+                                                                                                            <h5 class="pr_total">
+                                                                                                                $100.00
+                                                                                                            </h5>
+                                                                                                        </div>
+                                                                                                    </v-col>
+                                                                                                </v-row>
+                                                                                            </div>
+                                                                                            <div class="">
+                                                                                                <v-row class="my-1 align-center">
+                                                                                                    <v-col cols="col">
+                                                                                                        <h5 class="pr_total text-h6">
+                                                                                                            Total
+                                                                                                        </h5>
+                                                                                                    </v-col>
+                                                                                                    <v-col cols="auto">
+                                                                                                        <div class="ptotal_price">
+                                                                                                            <h5 class="pr_total">
+                                                                                                                $300.00
+                                                                                                            </h5>
+                                                                                                        </div>
+                                                                                                    </v-col>
+                                                                                                </v-row>
+                                                                                            </div>
+                                                                                       </div>
                                                                                   </div>
 
                                                                                   
@@ -476,6 +508,10 @@ function hideOrder(index:any) {
 
                                                                         </div>
 
+                                                                        <div class="">
+                                                                            <h2 class="text-h4">Diner details</h2>
+
+                                                                        </div>
 
                                                                     </v-card-text>
                                                                     <!-- <v-card-actions>
@@ -495,9 +531,12 @@ function hideOrder(index:any) {
                                                                         <h3 class="text-h6 mb-2">{{food.foodTitle}}</h3>
                                                                         <p class="text-subtitle-1">{{ food.foodContent.substring(0, 50) + '...' }}</p>
                                                                         <div class="wrapper">
-                                                                            <p>Counter: {{ counter }}</p>
-                                                                        <button @click="changeCounter(1)">Increment</button>
-                                                                        <button @click="changeCounter(-1)">Decrement</button>
+                                                                            <div class="qty-input">
+                                                                                <button @click="changeCounter(-1)" class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
+                                                                                <input class="product-qty" type="number" name="product-qty" min="0" max="10" :value="counter">
+                                                                                <button @click="changeCounter(1)" class="qty-count qty-count--add" data-action="add" type="button">+</button>
+                                                                            </div>
+                                                                            
                                                                         
                                                                         </div>
                                                                         <div class="d-flex justify-space-between align-center">
